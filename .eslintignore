@@ -1,0 +1,13 @@
+craco.config.js
+/build/
+/public/
+/lib/
+/es/
+/dist/
+/node_modules/
+/packages/sdk/es/
+/packages/sdk/lib/
+/packages/*/node_modules/
+/packages/*/public/
+/packages/*/build/
+/packages/*/dist/
