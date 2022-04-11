@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["@types", "node_modules/@types", "../../node_modules/@types"]
+  },
+  "include": ["./"],
+  "exclude": [
+    "node_modules",
+    "lib",
+    "es",
+    "typings",
+    "**/__test__",
+    "test",
+    "docs",
+    "tests",
+    "dist",
+    "docs-dist"
+  ]
+}
