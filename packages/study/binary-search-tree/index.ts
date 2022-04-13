@@ -63,7 +63,7 @@ export class BST {
   }
 
   remove(key: NodeType) {
-    removeNode(this.root, key)
+    this.root = removeNode(this.root, key)
   }
 }
 
